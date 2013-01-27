@@ -1,0 +1,37 @@
+.module {
+	margin-top:20px;
+	padding-top:10px;
+	border-top:dashed 3px #eee;
+}
+
+.module .outerSrc {
+	display:none;
+}
+
+.module .innerSrc {
+	margin-bottom:10px;
+}
+
+.module textarea.vSrc {
+	width:100%;
+	height:200px;
+	border:solid 1px #ccc;
+	margin:10px 0 10px 0;
+}
+
+.module .btnView,
+.module .btnCopy {
+	font-size:77%;
+	color:#fff;
+	padding:3px 5px 5px 5px;
+	background:#666;
+	text-align:center;
+	cursor:pointer;
+	display:inline;
+	border:solid 1px #666;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+}
+
+.module .btnCopy {/*display:none;*/}
